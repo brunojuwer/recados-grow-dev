@@ -25,6 +25,7 @@ formNewUser.addEventListener('submit', (e) => {
   }
 
   addNewUser(newUser);
+  
   e.target.reset();
 })
 

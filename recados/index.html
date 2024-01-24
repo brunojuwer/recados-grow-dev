@@ -53,20 +53,20 @@
         <button type="submit" class="btn color-violet btn-md btn-primary  w-100 ">SIGN IN NOW</button>
       </div>
       <div class="col mt-3">
-        <p> Don`t haven in account? <button type="button" data-bs-toggle="modal" data-bs-target="#createUserCardModal" class="bg-transparent border-0 text-primary" >Sign up</button></p>
+        <p> Don`t haven in account? <button type="reset" data-bs-toggle="modal" data-bs-target="#createUserCardModal" class="bg-transparent border-0 text-primary" >Sign up</button></p>
       </div>
      </form>
     </div>
   
     <div class="modal fade" id="createUserCardModal" tabindex="-1" aria-labelledby="createUserCardModal" aria-hidden="true">
+      <form id="form-new-user" class="needs-validation" novalidate>
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalLabel">Crie sua conta!</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="reset" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form id="form-new-user" class="needs-validation" novalidate>
               <div class="bg-transparent">
                 <label for="title">Nome usuário:</label>
                 <input required class="form-control" id="nome-user" type="text" aria-label="default input example">
@@ -105,16 +105,16 @@
               </div>
               <div class="container mt-2">
                 <div class="row">
-                  <button class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close" type="submit">Cancelar</button>
+                  <button class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close" type="reset">Cancelar</button>
                 </div>
               </div>
-            </form>
-          </div>
-          <div id="userMessage" class="container">
-  
+            </div>
+            <div id="userMessage" class="container">
+              
+            </div>
           </div>
         </div>
-      </div>
+      </form>
     </div>
     <div id="alertContainer">
     
